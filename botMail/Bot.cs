@@ -76,7 +76,7 @@ namespace botMail
                 mail.Body = sb.ToString();
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential(this.Username, this.Password); //myocvrucphjdnljr
+                SmtpServer.Credentials = new System.Net.NetworkCredential(this.Username, this.Password); 
                 SmtpServer.EnableSsl = true;
 
                 SmtpServer.Send(mail);
