@@ -52,7 +52,7 @@ namespace botMail
 
 
             string pathEmails = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "emails.txt");
-            string pathText = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "text.txt");
+            string pathText = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "p.txt");
             StreamReader sr = new StreamReader(pathEmails);
             StreamReader sr2 = new StreamReader(pathText);
 
@@ -74,7 +74,8 @@ namespace botMail
                 mail.To.Add(e);
                 mail.Subject = "Test Mail";
                 mail.Body = sb.ToString();
-
+                //Attachment attachment = new Attachment(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "text.docx"));
+                //mail.Attachments.Add(attachment);
                 SmtpServer.Port = 587;
                 SmtpServer.Credentials = new System.Net.NetworkCredential(this.Username, this.Password); 
                 SmtpServer.EnableSsl = true;

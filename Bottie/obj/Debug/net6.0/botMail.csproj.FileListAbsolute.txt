@@ -1,0 +1,15 @@
+C:\Users\georg\source\repos\MailBot\botMail\bin\Debug\net6.0\botMail.exe
+C:\Users\georg\source\repos\MailBot\botMail\bin\Debug\net6.0\botMail.deps.json
+C:\Users\georg\source\repos\MailBot\botMail\bin\Debug\net6.0\botMail.runtimeconfig.json
+C:\Users\georg\source\repos\MailBot\botMail\bin\Debug\net6.0\botMail.dll
+C:\Users\georg\source\repos\MailBot\botMail\bin\Debug\net6.0\ref\botMail.dll
+C:\Users\georg\source\repos\MailBot\botMail\bin\Debug\net6.0\botMail.pdb
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\botMail.csproj.AssemblyReference.cache
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\botMail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\botMail.AssemblyInfoInputs.cache
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\botMail.AssemblyInfo.cs
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\botMail.csproj.CoreCompileInputs.cache
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\botMail.dll
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\ref\botMail.dll
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\botMail.pdb
+C:\Users\georg\source\repos\MailBot\botMail\obj\Debug\net6.0\botMail.genruntimeconfig.cache
