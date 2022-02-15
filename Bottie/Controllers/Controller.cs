@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace botMail
 {
-    internal class Engine
+    public class Controller
     {
-        public Engine()
+        public Controller()
         {
 
         }
-        public void StartEnging()
+        public void Start()
         {
             while (true)
             {
@@ -31,10 +31,22 @@ namespace botMail
                 Menu("Enter your password");
                 string password = Console.ReadLine();
 
+                Console.WriteLine("Enter the name of file with emails");
+                string mailName = Console.ReadLine();
+
+                Console.WriteLine("Enter the extension of file with emails");
+                string mailExt = Console.ReadLine();
+
+                Console.WriteLine("Enter the name of file with emails");
+                string textName = Console.ReadLine();
+
+                Console.WriteLine("Enter the extension of file with emails");
+                string textExt = Console.ReadLine();
+
                 try
                 {
                     IBot bot = new Bot(mail, password);
-                    bot.StartBot();
+                    bot.StartBot(mailName , mailExt , textName , textExt);
                     Console.Clear();
                     Logo();
                     Console.WriteLine();

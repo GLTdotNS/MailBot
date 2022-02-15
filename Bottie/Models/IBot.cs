@@ -11,7 +11,7 @@ namespace botMail
         public string Username { get; }
         public string Password { get; }
 
-        public void StartBot();
+        public void StartBot(string nameOfEmails, string fileExtensionOfEmails, string nameOfText, string fileExtensionOfText);
 
     }
 }

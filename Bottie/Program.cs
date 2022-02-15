@@ -1,9 +1,7 @@
 ﻿
 using botMail;
 
-
-
-Engine engine = new Engine();
-engine.StartEnging();
+Controller engine = new Controller();
+engine.Start();
 
 
